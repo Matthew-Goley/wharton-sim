@@ -1,6 +1,6 @@
 test,winner,p_funded,median_contrib,top3
-yield 3%,CPPI m=2 cap=60% min=0%,1.0,102669.39798979876,CPPI m=2 cap=60% min=0% | CPPI m=2 cap=70% min=0% | CPPI m=2 cap=80% min=0%
-yield 5%,CPPI m=2 cap=60% min=0%,1.0,181174.4462666054,CPPI m=2 cap=60% min=0% | CPPI m=2 cap=70% min=0% | CPPI m=2 cap=80% min=0%
-stocks -1%,CPPI m=2 cap=60% min=0%,1.0,128679.35276770002,CPPI m=2 cap=60% min=0% | CPPI m=2 cap=70% min=0% | CPPI m=2 cap=80% min=0%
-stocks +1%,CPPI m=2 cap=60% min=0%,1.0,161458.47439208554,CPPI m=2 cap=60% min=0% | CPPI m=2 cap=70% min=0% | CPPI m=2 cap=80% min=0%
-normal dist,CPPI m=3 cap=70% min=10%,0.9909,148788.60076404837,CPPI m=3 cap=70% min=0% | CPPI m=3 cap=70% min=10% | CPPI m=3 cap=60% min=0%
+yield 3%,CPPI m=2 cap=50% min=0%,1.0,105835.41376614582,CPPI m=2 cap=50% min=0% | CPPI m=2 cap=60% min=0% | CPPI m=2 cap=70% min=0%
+yield 5%,CPPI m=2 cap=60% min=0%,1.0,181174.4462666054,CPPI m=2 cap=60% min=0% | CPPI m=2 cap=50% min=0% | CPPI m=2 cap=70% min=0%
+stocks -1%,CPPI m=2 cap=50% min=0%,1.0,135078.93362112885,CPPI m=2 cap=50% min=0% | CPPI m=2 cap=60% min=0% | CPPI m=1.5 cap=50% min=0%
+stocks +1%,CPPI m=2 cap=50% min=0%,1.0,162849.72345523257,CPPI m=2 cap=50% min=0% | CPPI m=2 cap=60% min=0% | CPPI m=2 cap=70% min=0%
+normal dist,CPPI m=3 cap=70% min=0%,0.9918,148788.60076404837,CPPI m=3 cap=70% min=0% | CPPI m=3 cap=70% min=10% | CPPI m=3 cap=60% min=0%
