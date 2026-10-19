@@ -1,3 +1,5 @@
+import numpy as np
+
 def floor(t, inp):
     f = inp.RESERVE / (1 + inp.YIELD)**(inp.YEARS - t)
     for k, c in inp.CONTRIB.items():

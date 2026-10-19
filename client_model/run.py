@@ -24,7 +24,7 @@ def make_inputs(**changes):
 def build_strategies():
     """Every candidate strategy, as {name: rule}."""
     strats = {}
-    for m, cap, min_w in itertools.product([2, 3, 4, 5], [0.6, 0.7, 0.8, 0.9], [0.0, 0.1, 0.2]):
+    for m, cap, min_w in itertools.product([1.5, 2, 2.5, 3], [0.5, 0.6, 0.7, 0.8], [0.0, 0.1]):
         strats[f"CPPI m={m} cap={cap:.0%} min={min_w:.0%}"] = cppi(m, cap, min_w)
     strats["Glide 75 to 35"] = glide([0.75, 0.75, 0.70, 0.65, 0.45, 0.35])
     strats["Glide 90 to 40"] = glide([0.90, 0.85, 0.80, 0.70, 0.55, 0.40])
