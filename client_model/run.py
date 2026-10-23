@@ -33,7 +33,7 @@ def build_strategies():
 
 
 def score(V, inp):
-    """Turn simulated 2033 values into the numbers we care about."""
+    """Turn simulated 2033 values into the numbers"""
     surplus = V - inp.RESERVE
     contrib = FACILITY_SHARE * np.maximum(surplus, 0)
     return {
